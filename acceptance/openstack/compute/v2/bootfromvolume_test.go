@@ -290,6 +290,7 @@ func TestBootFromNewCustomizedVolume(t *testing.T) {
 			UUID:                choices.ImageID,
 			VolumeSize:          2,
 			DeviceType:          "disk",
+			DeviceName:          "/dev/sda",
 			DiskBus:             "virtio",
 		},
 	}

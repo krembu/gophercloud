@@ -68,6 +68,10 @@ type BlockDevice struct {
 	// omitted for existing volumes.
 	VolumeSize int `json:"volume_size,omitempty"`
 
+	// DeviceName specifies the device name of the block devices.
+	// Examples of this are /dev/sda/, /dev/hda.
+	DeviceName string `json:"device_name,omitempty"`
+
 	// DeviceType specifies the device type of the block devices.
 	// Examples of this are disk, cdrom, floppy, lun, etc.
 	DeviceType string `json:"device_type,omitempty"`

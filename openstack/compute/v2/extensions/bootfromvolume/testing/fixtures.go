@@ -221,6 +221,7 @@ var ImageAndNewVolumeRequest = bootfromvolume.CreateOptsExt{
 			SourceType:          bootfromvolume.SourceBlank,
 			VolumeSize:          1,
 			DeviceType:          "disk",
+			DeviceName:          "/dev/sda",
 			DiskBus:             "scsi",
 		},
 	},
